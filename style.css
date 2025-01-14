@@ -4,7 +4,8 @@
 }
 .main-outer{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     background-color: #020B18;
 }
 .top-outer{
@@ -70,4 +71,19 @@
     color: white;
     font-size:40px;
     margin-left: 20px;
+}
+.wrapper{
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+}
+.left-inner{
+    width: 50%;
+    height: 600px;
+    border: 1px solid white;
+}
+.right-inner{
+    width: 50%;
+    height: 600px;
+    border: 1px solid white;
 }
