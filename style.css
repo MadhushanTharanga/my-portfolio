@@ -36,6 +36,9 @@
     font-weight: bold;
     font-family: Arial;
 }
+.top-left-outer span:hover{
+    cursor: pointer;
+}
 .top-middle-outer{
     width: 500px;
     height: 100%;
@@ -61,6 +64,10 @@
     font-family: Arial;
     font-weight: bold;
 }
+.nav-bar-outer ul li:hover{
+    color: #17C185;
+    cursor: pointer;
+}
 .top-right-outer{
     width: 100%;
     height: 100%;
@@ -72,6 +79,10 @@
     color: white;
     font-size:40px;
     margin-left: 20px;
+}
+.ic:hover{
+    color: #17C185;
+    cursor: pointer;
 }
 .wrapper{
     width: 100%;
@@ -112,6 +123,7 @@
 .heading-outer{
     width: 100%;
     height: 200px;
+    margin-top: 80px;
 }
 .heading-outer h1{
     color: white;
@@ -126,6 +138,7 @@
     width: 100%;
     height: 150px;
     border: inherit;
+    margin-bottom: 20px;
 }
 .text-outer span{
     color: #9b9999;
@@ -134,7 +147,7 @@
 .resume-outer{
     width:200px;
     height: 50px;
-    border: inherit;
+
 }
 .resume-outer button{
     width: 100%;
@@ -142,4 +155,10 @@
     border-radius: 100px;
     background-color: #17C185;
     color: white;
+    border: none;
+    font-weight: bold;
+}
+.resume-outer button:hover{
+    background-color: #0F1722;
+    color: #17C185;
 }
