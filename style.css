@@ -8,11 +8,15 @@
     height: auto;
     background-color: #020B18;
     padding-bottom: 200px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 .top-outer{
     width: 100%;
     height: 100px;
     background-color: #0F1722;
+    position: fixed;
 }
 .top-inner{
     width: 100%;
@@ -87,7 +91,7 @@
 .wrapper{
     width: 100%;
     height: 550px;
-    margin: 70px 0;
+    margin-top: 150px;
     margin-bottom: 10px !important;
 }
 .left-inner{
@@ -107,15 +111,8 @@
 .image1{
     width: 100%;
     height: 100%;
-    position: relative;
 
-}
-.image2{
-    width: 30%;
-    height: 75%;
-    position: absolute;
-    background-size: cover;
-    right: 100px;
+
 }
 .badge-outer{
     width: 300px;
@@ -186,7 +183,7 @@
     color: #17C185;
 }
 .summary-outer{
-    margin-top: 50px;
+    margin-top: 10px;
     width: 100%;
     height: 150px;
     display: flex;
@@ -225,6 +222,7 @@
     align-items: center;
     justify-content: center;
     background-image: url("background.png");
+
 }
 .left-about{
     width: 50%;
@@ -262,4 +260,46 @@
     align-items: start;
     justify-content: center;
     padding-bottom: 50px;
+}
+.skills-outer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-outer h1{
+    color: white;
+    word-spacing: 15px;
+}
+.skills-outer span{
+    color: #17C185;
+}
+.skill-inner{
+    padding-top: 50px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tools-inner{
+    height: 60px;
+    margin: 22px;
+    background-color: #11151F;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tools-inner span{
+    font-size: 20px;
+    color: #17C185;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.icon{
+    color: white;
+    font-size: 35px;
 }
