@@ -27,12 +27,13 @@
     background-color: #0F1722;
 }
 .top-left-outer{
-    width: 100px;
+    width: 30%;
     height: 100%;
     border: inherit;
     display: flex;
     align-items: center;
     padding-left: 0;
+
 }
 .top-left-outer span{
     color: #17C185;
@@ -43,8 +44,14 @@
 .top-left-outer span:hover{
     cursor: pointer;
 }
+.top-mid-outer{
+    flex: 1;
+    display: block;
+
+}
 .top-middle-outer{
-    width: 500px;
+    width: 100%;
+
     height: 100%;
     border: inherit;
     display: flex;
@@ -52,9 +59,10 @@
 }
 .nav-bar-outer{
     width: 100%;
-    height: 50%;
+    height: 50px;
     background-color: #020B18;
     border-radius: 100px;
+    padding-top: 3px;
 }
 .nav-bar-outer ul{
     list-style-type: none;
@@ -62,6 +70,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
+    height: 100%;
 }
 .nav-bar-outer ul li{
     color: white;
@@ -73,11 +82,12 @@
     cursor: pointer;
 }
 .top-right-outer{
-    width: 100%;
+    width: 15%;
     height: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
 }
 .ic{
     color: white;
@@ -93,7 +103,9 @@
     height: 550px;
     margin-top: 150px;
     margin-bottom: 10px !important;
+    display: flex;
 }
+
 .left-inner{
     width: 50%;
     height: 550px;
@@ -104,16 +116,9 @@
     padding: 10px;
 }
 .right-inner{
-    width: 50%;
     height: 550px;
-    display: flex;
 }
-.image1{
-    width: 100%;
-    height: 100%;
 
-
-}
 .badge-outer{
     width: 300px;
     height: 60px;
@@ -157,7 +162,6 @@
 .text-outer{
     width: 100%;
     height: 150px;
-    border: inherit;
     margin-bottom: 40px;
 }
 .text-outer span{
@@ -206,6 +210,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    border: 1px solid red;
 }
 .project-outer h1{
     color: #17C185;
@@ -221,7 +226,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("background.png");
+    background-image: url("assets/background.png");
 
 }
 .left-about{
@@ -303,3 +308,123 @@
     color: white;
     font-size: 35px;
 }
+
+@media screen and (max-width: 768px) {
+    .top-left-outer{
+        width: 70%;
+        height: 100%;
+        border: inherit;
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+
+    }
+    .top-right-outer{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+    .ic{
+        font-size: 30px;
+    }
+    .top-left-outer span{
+        font-size: 25px;
+    }
+    .top-mid-outer{
+        flex: 1;
+        display: none;
+
+    }
+}
+@media screen and (max-width: 576px){
+    .top-left-outer{
+        width: 70%;
+        height: 100%;
+        border: inherit;
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+    }
+    .top-right-outer{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .ic{
+        font-size: 22px;
+    }
+    .top-left-outer span{
+        font-size: 20px;
+    }
+    .top-mid-outer{
+        flex: 1;
+        display: none;
+
+    }
+    .heading-outer h1{
+        color: white;
+        font-size: 16px;
+        font-family: Arial;
+        font-weight: bold;
+        background-color: #17C185;
+    }
+}
+@media screen and (max-width: 992px){
+    .top-left-outer{
+        width: 80%;
+        height: 100%;
+        border: inherit;
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+    }
+    .top-right-outer{
+        width:20%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .ic{
+        font-size: 22px;
+    }
+    .top-left-outer span{
+        font-size: 20px;
+    }
+    .top-mid-outer{
+        flex: 1;
+        display: none;
+    }
+    .nav-bar-outer{
+        width: 100%;
+        height: 30px;
+        background-color: #020B18;
+        border-radius: 100px;
+        padding-top: 3px;
+    }
+    .heading-outer h1{
+        color: white;
+        font-size: 16px;
+        font-family: Arial;
+        font-weight: bold;
+        background-color: #17C185;
+    }
+}
+@media screen and(max-width: 1400px) {
+    .left-inner{
+        width: 50%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+        padding: 10px;
+    }
+
+}
+
