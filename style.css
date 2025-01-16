@@ -343,8 +343,6 @@
     }
     .top-mid-outer{
         flex: 1;
-        display: none;
-
     }
 }
 @media screen and (max-width: 576px){
@@ -379,7 +377,6 @@
         font-size: 16px;
         font-family: Arial;
         font-weight: bold;
-        background-color: #17C185;
     }
 }
 @media screen and (max-width: 992px){
@@ -466,6 +463,51 @@
         border: none;
         font-weight: bold;
         font-size: 12px;
+    }
+    .about-me-outer{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("assets/background.png");
+
+    }
+    .left-about{
+        width: 50%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .left-about h1{
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .left-about h1 span{
+        color: #17C185;
+    }
+    .left-about p{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        line-height: 20px;
+        font-size: 13px;
+
+    }
+    .left-about p span{
+        color: #17C185;
+    }
+    .right-about{
+        width: 50%;
+        height: 480px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding-bottom: 50px;
     }
 }
 
